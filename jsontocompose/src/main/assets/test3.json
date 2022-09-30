@@ -1,0 +1,38 @@
+{
+  "JTC_VIEW_TYPE" : "JTC_HORIZONTAL_SLIDER",
+  "JTC_VIEW_DATA" : {
+    "JTC_VIEW_PROPS" : {
+
+    },
+    "JTC_ORIENTATION" : "1",
+    "JTC_HORZ_SLIDER_DATA" : [
+      {
+        "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+
+          },
+          "IMAGE_URL" : "https://miro.medium.com/max/720/0*H4LhP76j0NT_9Gq3"
+        }
+      },
+      {
+        "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+
+          },
+          "IMAGE_URL" : "https://miro.medium.com/max/720/0*H4LhP76j0NT_9Gq3"
+        }
+      },
+      {
+        "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+
+          },
+          "IMAGE_URL" : "https://miro.medium.com/max/720/0*H4LhP76j0NT_9Gq3"
+        }
+      }
+    ]
+  }
+}

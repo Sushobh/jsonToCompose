@@ -1,0 +1,182 @@
+{
+  "JTC_VIEW_TYPE" : "JTC_COLUMN",
+  "JTC_VIEW_DATA" : {
+    "JTC_VIEW_PROPS" : {
+
+    },
+    "JTC_ORIENTATION" : "1",
+    "JTC_COLUMN_DATA" : [
+      {
+        "JTC_VIEW_TYPE" : "JTC_HORIZONTAL_SLIDER",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+
+          },
+          "JTC_ORIENTATION" : "1",
+          "JTC_HORZ_SLIDER_DATA" : [
+
+            {
+            "JTC_VIEW_TYPE" : "JTC_COLUMN",
+            "JTC_VIEW_DATA" : {
+              "JTC_VIEW_PROPS" : {
+
+              },
+              "JTC_ORIENTATION" : "1",
+              "JTC_COLUMN_DATA" : [
+                {
+                  "JTC_VIEW_TYPE" : "JTC_HORIZONTAL_SLIDER",
+                  "JTC_VIEW_DATA" : {
+                    "JTC_VIEW_PROPS" : {
+
+                    },
+                    "JTC_ORIENTATION" : "1",
+                    "JTC_HORZ_SLIDER_DATA" : []
+                  }
+                },
+                {
+                  "JTC_VIEW_TYPE" : "JTC_LIST",
+                  "JTC_VIEW_DATA" : {
+                    "JTC_VIEW_PROPS" : {
+
+                    },
+                    "JTC_ORIENTATION" : "1",
+                    "JTC_LIST_DATA" : []
+                  }
+                },
+                {
+                  "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+                  "JTC_VIEW_DATA" : {
+                    "JTC_VIEW_PROPS" : {
+
+                    },
+                    "IMAGE_URL" : "helloworld"
+                  }
+                }
+              ]
+            }
+          }
+            ,  {
+              "JTC_VIEW_TYPE" : "JTC_HORIZONTAL_SLIDER",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+
+                },
+                "JTC_ORIENTATION" : "1",
+                "JTC_HORZ_SLIDER_DATA" : []
+              }
+            },
+            {
+              "JTC_VIEW_TYPE" : "JTC_LIST",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+
+                },
+                "JTC_ORIENTATION" : "1",
+                "JTC_LIST_DATA" : []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "JTC_VIEW_TYPE" : "JTC_LIST",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+
+          },
+          "JTC_ORIENTATION" : "1",
+          "JTC_LIST_DATA" : [
+            {
+            "JTC_VIEW_TYPE" : "JTC_COLUMN",
+            "JTC_VIEW_DATA" : {
+              "JTC_VIEW_PROPS" : {
+
+              },
+              "JTC_ORIENTATION" : "1",
+              "JTC_COLUMN_DATA" : [
+                {
+                  "JTC_VIEW_TYPE" : "JTC_HORIZONTAL_SLIDER",
+                  "JTC_VIEW_DATA" : {
+                    "JTC_VIEW_PROPS" : {
+
+                    },
+                    "JTC_ORIENTATION" : "1",
+                    "JTC_HORZ_SLIDER_DATA" : []
+                  }
+                },
+                {
+                  "JTC_VIEW_TYPE" : "JTC_LIST",
+                  "JTC_VIEW_DATA" : {
+                    "JTC_VIEW_PROPS" : {
+
+                    },
+                    "JTC_ORIENTATION" : "1",
+                    "JTC_LIST_DATA" : []
+                  }
+                },
+                {
+                  "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+                  "JTC_VIEW_DATA" : {
+                    "JTC_VIEW_PROPS" : {
+
+                    },
+                    "IMAGE_URL" : "helloworld"
+                  }
+                }
+              ]
+            }
+          },
+            {
+              "JTC_VIEW_TYPE" : "JTC_COLUMN",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+
+                },
+                "JTC_ORIENTATION" : "1",
+                "JTC_COLUMN_DATA" : [
+                  {
+                    "JTC_VIEW_TYPE" : "JTC_HORIZONTAL_SLIDER",
+                    "JTC_VIEW_DATA" : {
+                      "JTC_VIEW_PROPS" : {
+
+                      },
+                      "JTC_ORIENTATION" : "1",
+                      "JTC_HORZ_SLIDER_DATA" : []
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE" : "JTC_LIST",
+                    "JTC_VIEW_DATA" : {
+                      "JTC_VIEW_PROPS" : {
+
+                      },
+                      "JTC_ORIENTATION" : "1",
+                      "JTC_LIST_DATA" : []
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA" : {
+                      "JTC_VIEW_PROPS" : {
+
+                      },
+                      "IMAGE_URL" : "helloworld"
+                    }
+                  }
+                ]
+              }
+            }]
+        }
+      },
+      {
+        "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+
+          },
+          "IMAGE_URL" : "helloworld"
+        }
+      }
+    ]
+  }
+}
