@@ -19,27 +19,7 @@ import org.json.JSONObject
  */
 
 @Composable
-fun TestView(context : Context) {
+private fun TestView(context : Context) {
 
-     val full = loadJsonObject("example_full.json",context)
-     val data = JTCJsonParser(
-          full).parse()
-      val drawer = data?.let { ViewDrawer(it) }
-      data?.let { drawer?.draw() }
 }
 
-fun addToColum(full : JSONObject ,newItem: JSONObject){
-    full.getJSONObject("JTC_VIEW_DATA").getJSONArray("JTC_LIST_DATA").put(newItem)
-}
-
-fun loadJsonObject(fileName: String,context: Context) : JSONObject {
-    val jsonDataString = context.assets.readAssetsFile(fileName)
-    return JSONObject(jsonDataString)
-}
-
-fun AssetManager.readAssetsFile(fileName : String): String {
-    val stream = open(fileName)
-    val string = stream.bufferedReader().readText()
-    stream.close()
-    return string
-}

@@ -2,25 +2,22 @@
 
 package com.sushobh.jsontocompose.viewtypes
 
-import android.util.Log
-import androidx.compose.foundation.layout.height
-import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.Dp
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.PagerState
-import com.sushobh.jsontocompose.ViewDrawer
+import com.sushobh.jsontocompose.JTCJsonToCompose
+import com.sushobh.jsontocompose.JTCCustomViewDataHandler
 import com.sushobh.jsontocompose.propparser.updateModifier
 import com.sushobh.jsontocompose.viewdata.JTCHorizontalSliderData
-import com.sushobh.jsontocompose.viewdata.JTCUrlImageData
 import com.sushobh.jsontocompose.viewdata.JTCViewData
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.yield
 
-class JTCHorizontalSlider(data : JTCHorizontalSliderData) : JTCViewType<JTCHorizontalSliderData>(data) {
+class JTCHorizontalSlider(data : JTCHorizontalSliderData,viewDataHandler: JTCCustomViewDataHandler?) :
+    JTCViewType<JTCHorizontalSliderData>(data,viewDataHandler) {
     @Composable
     override fun View()  {
         val pagerState = PagerState(currentPage = 0)
@@ -32,7 +29,7 @@ class JTCHorizontalSlider(data : JTCHorizontalSliderData) : JTCViewType<JTCHoriz
             }
         }
         HorizontalPager(count = data.data.size, Modifier.updateModifier(data.viewProps), state = pagerState) { page ->
-            ViewDrawer(data.data[page]).draw()
+            JTCJsonToCompose(data.data[page],viewDataHandler).draw()
         }
     }
 

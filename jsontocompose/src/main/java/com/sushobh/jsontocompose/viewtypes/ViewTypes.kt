@@ -1,11 +1,11 @@
 package com.sushobh.jsontocompose.viewtypes
 
-import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import com.sushobh.jsontocompose.JTCCustomViewDataHandler
 import com.sushobh.jsontocompose.viewdata.JTCViewData
 
 
-abstract class  JTCViewType<X : JTCViewData>(val data : X ) {
+abstract class  JTCViewType<X : JTCViewData>(val data : X,val viewDataHandler: JTCCustomViewDataHandler? = null) {
 
     @Composable
     abstract fun View()
