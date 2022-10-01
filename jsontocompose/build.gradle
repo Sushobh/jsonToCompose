@@ -71,3 +71,17 @@ dependencies {
 
 
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.sushobh'
+                artifactId = 'android-example'
+                version = '1.0'
+            }
+        }
+    }
+}
