@@ -10,6 +10,37 @@ The json for the above view is this
 
 https://github.com/Sushobh/jsonToCompose/blob/master/jsontocompose/src/main/assets/example_full.json
 
+## Download
+
+In your project level gradle file, add this
+
+```kotlin
+allprojects {
+   repositories {
+    ......
+	  maven { url 'https://jitpack.io' }
+	}
+   }
+```
+If you are declaring repository list in settings.gradle, add it like this
+
+```kotlin
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        ......
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+And then add the dependency in your app level gradle file
+```kotlin
+dependencies {
+ implementation 'com.github.Sushobh:jsonToCompose:0b1cb70077'
+}
+```
+
 ## Features
 - The library converts JSON into an intermediate format, which is then parsed to create compose views.
 - The library by default supports columns,rows, lists(horizontal and vertical),horizontal sliders,texts,buttons.
