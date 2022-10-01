@@ -1,7 +1,7 @@
 package com.sushobh.jsontocompose.customjtc
 
-import com.sushobh.jsontocompose.viewdata.JTCViewData
-import com.sushobh.jsontocompose.viewdata.JTCViewProps
+import com.sushobh.jtclib.viewdata.JTCViewData
+import com.sushobh.jtclib.viewdata.JTCViewProps
 
 const val JTC_UPDATE_KYC_DATA = "JTC_UPDATE_KYC_DATA"
 const val JTC_UPDATE_KYC = "JTC_UPDATE_KYC"

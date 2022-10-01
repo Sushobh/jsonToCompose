@@ -15,8 +15,9 @@ import com.sushobh.jsontocompose.customjtc.JTCUpdateKycData
 import com.sushobh.jsontocompose.customjtc.JTCUpdateKycParser
 import com.sushobh.jsontocompose.customjtc.JTC_UPDATE_KYC
 import com.sushobh.jsontocompose.ui.theme.JsonToComposeTheme
-import com.sushobh.jsontocompose.viewdata.JTCViewData
-import com.sushobh.jsontocompose.viewtypes.JTCViewType
+import com.sushobh.jtclib.*
+import com.sushobh.jtclib.viewdata.JTCViewData
+import com.sushobh.jtclib.viewtypes.JTCViewType
 import org.json.JSONObject
 
 class MainActivity : ComponentActivity() {
