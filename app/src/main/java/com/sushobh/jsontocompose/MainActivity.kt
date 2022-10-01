@@ -34,10 +34,8 @@ class MainActivity : ComponentActivity() {
             }
         }
 
-
         //Parse data from json first
         val jtcDataParser = JTCJsonParser(loadJsonObject("example_full.json",this),customDataHandler)
-
 
         val data = jtcDataParser.parse()
 

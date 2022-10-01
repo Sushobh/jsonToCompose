@@ -3,7 +3,11 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-android'
     id 'org.jetbrains.kotlin.plugin.serialization' version '1.7.20'
+    id 'maven-publish'
 }
+
+group = 'com.sushobh'
+version = '1.0'
 
 android {
     namespace 'com.sushobh.jsontocompose'
