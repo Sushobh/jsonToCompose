@@ -1,0 +1,11 @@
+{
+  "JTC_VIEW_TYPE" : "JTC_BUTTON",
+  "JTC_VIEW_DATA" : {
+    "JTC_VIEW_PROPS" : {
+      "setMargin" : true,
+      "margin" : "15f"
+
+    },
+    "JTC_TEXT" : "Update KYC"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "JTC_VIEW_TYPE" : "JTC_HORIZONTAL_SLIDER",
+  "JTC_VIEW_DATA" : {
+    "JTC_VIEW_PROPS" : {
+      "height" : "170f",
+      "setHeight" : true
+    },
+    "JTC_HORZ_SLIDER_DATA" : [
+      {
+        "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+               "imageProps" : {
+                 "strechToFit" : true
+               }
+          },
+          "IMAGE_URL" : "https://i.ibb.co/hBZdyhV/Offer-Images.jpg"
+        }
+      },
+      {
+        "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+            "imageProps" : {
+              "strechToFit" : true
+            }
+          },
+          "IMAGE_URL" : "https://i.ibb.co/DkvP1HT/Offer-Image2.jpg"
+        }
+      },
+      {
+        "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+            "imageProps" : {
+              "strechToFit" : true
+            }
+          },
+          "IMAGE_URL" : "https://i.ibb.co/VMxC911/Offer-Image4.jpg"
+        }
+      },
+      {
+        "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+            "imageProps" : {
+              "strechToFit" : true
+            }
+          },
+          "IMAGE_URL" : "https://i.ibb.co/44QdBcW/Offer-Image3.jpg"
+        }
+      }
+    ]
+  }
+}

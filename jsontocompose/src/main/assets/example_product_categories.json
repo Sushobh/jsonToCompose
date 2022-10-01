@@ -1,0 +1,136 @@
+
+{
+  "JTC_VIEW_TYPE" : "JTC_COLUMN",
+  "JTC_VIEW_DATA" : {
+    "JTC_VIEW_PROPS" : {
+       "setHeight" : true,
+       "height" : "200f"
+    },
+    "JTC_ORIENTATION" : "0",
+    "JTC_COLUMN_DATA" : [
+
+      {
+        "JTC_VIEW_TYPE" : "JTC_TEXT",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+              "setMargin" : true,
+              "margin" : "15f"
+          },
+          "JTC_ORIENTATION" : "0",
+          "JTC_TEXT" : "Product Categories"
+        }
+      },
+      {
+        "JTC_VIEW_TYPE" : "JTC_LIST",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+
+          },
+          "JTC_ORIENTATION" : "1",
+          "JTC_LIST_DATA" : [
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/4MgD7j2/appliances.webp"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/MNNybzJ/electronics.webp"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/kJTShPC/fashion.webp"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/rH2hrhH/grocery.webp"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/xSD4Dp0/home.webp"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/k93qNvw/phones.webp"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/r5t23DZ/toys.webp"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/jgztBTC/two-wheeler.webp"
+              }
+            }
+          ]
+        }
+      }
+
+    ]
+  }
+}
+
+
+

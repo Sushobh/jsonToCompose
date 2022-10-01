@@ -1,22 +1,33 @@
 package com.sushobh.jsontocompose.viewdata
 
+import kotlinx.serialization.Serializable
+
 open class JTCViewData(val info : String,val viewProps : JTCViewProps?) {
 
 }
 
-
+@Serializable
 class JTCViewProps {
     val height : Float = 0f
+    val setHeight : Boolean = false
+
     val width : Float = 0f
-    val topMargin : Float = 0f
-    val bottomMargin : Float = 0f
-    val leftMargin : Float = 0f
-    val rightMargin : Float = 0f
+    val setWidth : Boolean = false
+
     val margin : Float = 0f
-    val padding : Float = 0f
-    val leftPadding : Float = 0f
-    val rightPadding : Float = 0f
-    val topPadding : Float = 0f
-    val bottomPadding : Float = 0f
-    val clickable : Boolean = false
+    val setMargin : Boolean = false
+
+    val leftMargin : Float = 0f
+    val setLeftMargin : Boolean = false
+
+    val rightMargin : Float = 0f
+    val setRightMargin : Boolean = false
+
+    val setBackgroundColor : Boolean = false
+    val backgroundColor : String? = null
+
+    val imageProps : ImageProps? = null
 }
+
+@Serializable
+data class ImageProps(val strechToFit : Boolean = false)

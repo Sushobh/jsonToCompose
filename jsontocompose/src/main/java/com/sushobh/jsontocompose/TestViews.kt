@@ -4,26 +4,40 @@ package com.sushobh.jsontocompose
 
 import android.content.Context
 import android.content.res.AssetManager
-import androidx.compose.foundation.layout.height
-import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.Dp
 import com.google.accompanist.pager.ExperimentalPagerApi
-import com.google.accompanist.pager.HorizontalPager
-import com.google.accompanist.pager.PagerState
-import com.sushobh.jsontocompose.viewdata.JTCUrlImageData
-import com.sushobh.jsontocompose.viewtypes.JTCUrlImage
 import org.json.JSONObject
 
 
+/**
+ * 1) Create Data Type.
+ * 2) Create View Type.
+ * 3) Add JTC_VIEW variable strin
+ * 3) Register ViewType
+ * 4) Create Data Parser.
+ * 5) Register Parser.
+ */
+
 @Composable
 fun TestView(context : Context) {
-      val data = JTCJsonParser(
-          loadJsonObject("test3.json",context)).parse()
+
+     val full = loadJsonObject("example_full.json",context)
+     val offerSlider = loadJsonObject("example_offer_slider.json",context)
+     val kycPrompt = loadJsonObject("example_kyc_prompt.json",context)
+     val productCategories = loadJsonObject("example_product_categories.json",context)
+     val recentlyViewed = loadJsonObject("example_recent_views.json",context)
+     addToColum(full,offerSlider)
+     addToColum(full,productCategories)
+     addToColum(full,kycPrompt)
+     addToColum(full,recentlyViewed)
+     val data = JTCJsonParser(
+          full).parse()
       val drawer = data?.let { ViewDrawer(it) }
       data?.let { drawer?.draw() }
+}
+
+fun addToColum(full : JSONObject ,newItem: JSONObject){
+    full.getJSONObject("JTC_VIEW_DATA").getJSONArray("JTC_LIST_DATA").put(newItem)
 }
 
 fun loadJsonObject(fileName: String,context: Context) : JSONObject {

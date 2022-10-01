@@ -1,0 +1,110 @@
+
+{
+  "JTC_VIEW_TYPE" : "JTC_COLUMN",
+  "JTC_VIEW_DATA" : {
+    "JTC_VIEW_PROPS" : {
+      "setHeight" : true,
+      "height" : "200f"
+    },
+    "JTC_ORIENTATION" : "0",
+    "JTC_COLUMN_DATA" : [
+
+      {
+        "JTC_VIEW_TYPE" : "JTC_TEXT",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+            "setMargin" : true,
+            "margin" : "15f"
+          },
+          "JTC_ORIENTATION" : "0",
+          "JTC_TEXT" : "Recently Viewed"
+        }
+      },
+      {
+        "JTC_VIEW_TYPE" : "JTC_LIST",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+
+          },
+          "JTC_ORIENTATION" : "1",
+          "JTC_LIST_DATA" : [
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f",
+                  "setMargin" : true,
+                  "margin" : "20f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/bKRwvwK/airdopes.webp"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f",
+                  "setMargin" : true,
+                  "margin" : "20f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/JKjTYLW/cabledrop.webp"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f",
+                  "setMargin" : true,
+                  "margin" : "20f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/TKPWxMh/cellphone-holder.webp"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f",
+                  "setMargin" : true,
+                  "margin" : "20f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/7SVTd5v/graphics-card.webp"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE" : "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA" : {
+                "JTC_VIEW_PROPS" : {
+                  "setWidth" : true,
+                  "setHeight" : true,
+                  "width" : "120f",
+                  "height" : "150f",
+                  "setMargin" : true,
+                  "margin" : "20f"
+                },
+                "IMAGE_URL" : "https://i.ibb.co/pjYV1vw/headphonecase.webp"
+              }
+            }
+          ]
+        }
+      }
+
+    ]
+  }
+}
+
+
+

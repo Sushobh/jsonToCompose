@@ -1,0 +1,39 @@
+
+
+{
+  "JTC_VIEW_TYPE" : "JTC_COLUMN",
+  "JTC_VIEW_DATA" : {
+    "JTC_VIEW_PROPS" : {
+      "setBackgroundColor" : true,
+      "backgroundColor" : "#ede7f6"
+    },
+    "JTC_ORIENTATION" : "0",
+    "JTC_COLUMN_DATA" : [
+      {
+        "JTC_VIEW_TYPE" : "JTC_TEXT",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+            "setMargin" : true,
+            "margin" : "15f"
+          },
+          "JTC_ORIENTATION" : "0",
+          "JTC_TEXT" : "Have you updated your KYC? Do it now to get 100 reward points"
+        }
+      },
+      {
+        "JTC_VIEW_TYPE" : "JTC_BUTTON",
+        "JTC_VIEW_DATA" : {
+          "JTC_VIEW_PROPS" : {
+            "setMargin" : true,
+            "margin" : "15f"
+
+          },
+          "JTC_TEXT" : "Update KYC"
+        }
+      }
+    ]
+  }
+}
+
+
+

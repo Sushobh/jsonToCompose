@@ -1,9 +1,6 @@
 package com.sushobh.jsontocompose
 
-import com.sushobh.jsontocompose.dataparsers.JTCColumParser
-import com.sushobh.jsontocompose.dataparsers.JTCLHorzSliderParser
-import com.sushobh.jsontocompose.dataparsers.JTCListParser
-import com.sushobh.jsontocompose.dataparsers.JTCUrlImageParser
+import com.sushobh.jsontocompose.dataparsers.*
 import com.sushobh.jsontocompose.viewdata.JTCViewData
 import com.sushobh.jsontocompose.viewtypes.JTCHorizontalSlider
 import com.sushobh.jsontocompose.viewtypes.JTC_VIEW_DATA
@@ -20,6 +17,8 @@ class JTCJsonParser(val data : JSONObject) {
         viewDataParsers.add(JTCLHorzSliderParser)
         viewDataParsers.add(JTCListParser)
         viewDataParsers.add(JTCUrlImageParser)
+        viewDataParsers.add(JTCTextParser)
+        viewDataParsers.add(JTCButtonParser)
     }
 
     fun addViewDataParser(parser : JTCViewDataParser) {

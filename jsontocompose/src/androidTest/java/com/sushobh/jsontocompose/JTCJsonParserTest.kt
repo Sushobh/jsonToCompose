@@ -5,10 +5,7 @@ package com.sushobh.jsontocompose
 import android.content.res.AssetManager
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import com.sushobh.jsontocompose.viewdata.JTCColumnData
-import com.sushobh.jsontocompose.viewdata.JTCHorizontalSliderData
-import com.sushobh.jsontocompose.viewdata.JTCListData
-import com.sushobh.jsontocompose.viewdata.JTCUrlImageData
+import com.sushobh.jsontocompose.viewdata.*
 import org.json.JSONObject
 import org.junit.Assert
 import org.junit.Test
@@ -22,12 +19,12 @@ internal class JTCJsonParserTest {
 
     @Test
     fun testAssetFolderJsonIsLoaded(){
-        Assert.assertNotNull(loadJsonObject("examplejson1.json"))
+        Assert.assertNotNull(loadJsonObject("testbasic.json"))
     }
 
     @Test
     fun checkColumnData(){
-        val data = loadJsonObject("column.json")
+        val data = loadJsonObject("test_column.json")
         val jtcJsonParser = JTCJsonParser(data)
         val viewData = jtcJsonParser.parse() as JTCColumnData
         Assert.assertEquals(0,viewData.data.size)
@@ -36,7 +33,7 @@ internal class JTCJsonParserTest {
 
     @Test
     fun checkListData(){
-        val data = loadJsonObject("list.json")
+        val data = loadJsonObject("test_list.json")
         val jtcJsonParser = JTCJsonParser(data)
         val viewData = jtcJsonParser.parse() as JTCListData
         Assert.assertEquals(0,viewData.listData.size)
@@ -45,24 +42,40 @@ internal class JTCJsonParserTest {
 
     @Test
     fun checkHorzSliderData(){
-        val data = loadJsonObject("horzs.json")
+        val data = loadJsonObject("test_horzs.json")
         val jtcJsonParser = JTCJsonParser(data)
         val viewData = jtcJsonParser.parse() as JTCHorizontalSliderData
-        Assert.assertEquals(0,viewData.data.size)
+        Assert.assertEquals(3,viewData.data.size)
     }
 
 
     @Test
     fun checkUrlImageData(){
-        val data = loadJsonObject("urlimage.json")
+        val data = loadJsonObject("test_urlimage.json")
         val jtcJsonParser = JTCJsonParser(data)
         val viewData = jtcJsonParser.parse() as JTCUrlImageData
-        Assert.assertEquals("helloworld",viewData.url)
+        Assert.assertEquals("https://miro.medium.com/max/720/0*H4LhP76j0NT_9Gq3",viewData.url)
+    }
+
+    @Test
+    fun checkTestData(){
+        val data = loadJsonObject("test_text.json")
+        val jtcJsonParser = JTCJsonParser(data)
+        val viewData = jtcJsonParser.parse() as JTCTextData
+        Assert.assertEquals("Hello World bro",viewData.data)
+    }
+
+    @Test
+    fun checkButtonData(){
+        val data = loadJsonObject("test_button.json")
+        val jtcJsonParser = JTCJsonParser(data)
+        val viewData = jtcJsonParser.parse() as JTCButtonData
+        Assert.assertEquals("Update KYC",viewData.text)
     }
 
     @Test
     fun nestedDataTest(){
-        val data = loadJsonObject("nesteddata.json")
+        val data = loadJsonObject("test_nesteddata.json")
         val jtcJsonParser = JTCJsonParser(data)
         val viewData = jtcJsonParser.parse() as JTCColumnData
         Assert.assertTrue(viewData.data.size == 3)

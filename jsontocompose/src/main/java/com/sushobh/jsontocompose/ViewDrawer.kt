@@ -13,6 +13,8 @@ class ViewDrawer(val jtcViewData: JTCViewData) {
            is JTCUrlImageData -> JTCUrlImage(viewData)
            is JTCListData -> JTCList(viewData)
            is JTCHorizontalSliderData -> JTCHorizontalSlider(viewData)
+           is JTCTextData -> JTCText(viewData)
+           is JTCButtonData -> JTCButton(viewData)
            else -> {return null}
        }
 
