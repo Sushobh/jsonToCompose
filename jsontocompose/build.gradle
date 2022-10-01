@@ -10,7 +10,7 @@ group = 'com.sushobh'
 version = '1.0'
 
 android {
-    namespace 'com.sushobh.jsontocompose'
+    namespace 'com.sushobh.jtclib'
     compileSdk 32
 
     defaultConfig {
