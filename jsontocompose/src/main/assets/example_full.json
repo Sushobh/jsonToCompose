@@ -1,13 +1,327 @@
-
 {
-  "JTC_VIEW_TYPE" : "JTC_LIST",
-  "JTC_VIEW_DATA" : {
-    "JTC_VIEW_PROPS" : {
-
-    },
-    "JTC_ORIENTATION" : "0",
-    "JTC_LIST_DATA" : [
-
+  "JTC_VIEW_TYPE": "JTC_LIST",
+  "JTC_VIEW_DATA": {
+    "JTC_VIEW_PROPS": {},
+    "JTC_ORIENTATION": "0",
+    "JTC_LIST_DATA": [
+      {
+        "JTC_VIEW_TYPE": "JTC_HORIZONTAL_SLIDER",
+        "JTC_VIEW_DATA": {
+          "JTC_VIEW_PROPS": {
+            "height": "170f",
+            "setHeight": true
+          },
+          "JTC_HORZ_SLIDER_DATA": [
+            {
+              "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA": {
+                "JTC_VIEW_PROPS": {
+                  "imageProps": {
+                    "strechToFit": true
+                  }
+                },
+                "IMAGE_URL": "https:\/\/i.ibb.co\/hBZdyhV\/Offer-Images.jpg"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA": {
+                "JTC_VIEW_PROPS": {
+                  "imageProps": {
+                    "strechToFit": true
+                  }
+                },
+                "IMAGE_URL": "https:\/\/i.ibb.co\/DkvP1HT\/Offer-Image2.jpg"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA": {
+                "JTC_VIEW_PROPS": {
+                  "imageProps": {
+                    "strechToFit": true
+                  }
+                },
+                "IMAGE_URL": "https:\/\/i.ibb.co\/VMxC911\/Offer-Image4.jpg"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+              "JTC_VIEW_DATA": {
+                "JTC_VIEW_PROPS": {
+                  "imageProps": {
+                    "strechToFit": true
+                  }
+                },
+                "IMAGE_URL": "https:\/\/i.ibb.co\/44QdBcW\/Offer-Image3.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "JTC_VIEW_TYPE": "JTC_COLUMN",
+        "JTC_VIEW_DATA": {
+          "JTC_VIEW_PROPS": {
+            "setHeight": true,
+            "height": "200f"
+          },
+          "JTC_ORIENTATION": "0",
+          "JTC_COLUMN_DATA": [
+            {
+              "JTC_VIEW_TYPE": "JTC_TEXT",
+              "JTC_VIEW_DATA": {
+                "JTC_VIEW_PROPS": {
+                  "setMargin": true,
+                  "margin": "15f"
+                },
+                "JTC_ORIENTATION": "0",
+                "JTC_TEXT": "Product Categories"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE": "JTC_LIST",
+              "JTC_VIEW_DATA": {
+                "JTC_VIEW_PROPS": {},
+                "JTC_ORIENTATION": "1",
+                "JTC_LIST_DATA": [
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/4MgD7j2\/appliances.webp"
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/MNNybzJ\/electronics.webp"
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/kJTShPC\/fashion.webp"
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/rH2hrhH\/grocery.webp"
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/xSD4Dp0\/home.webp"
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/k93qNvw\/phones.webp"
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/r5t23DZ\/toys.webp"
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/jgztBTC\/two-wheeler.webp"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "JTC_VIEW_TYPE": "JTC_COLUMN",
+        "JTC_VIEW_DATA": {
+          "JTC_VIEW_PROPS": {
+            "setBackgroundColor": true,
+            "backgroundColor": "#ede7f6"
+          },
+          "JTC_ORIENTATION": "0",
+          "JTC_COLUMN_DATA": [
+            {
+              "JTC_VIEW_TYPE": "JTC_TEXT",
+              "JTC_VIEW_DATA": {
+                "JTC_VIEW_PROPS": {
+                  "setMargin": true,
+                  "margin": "15f"
+                },
+                "JTC_ORIENTATION": "0",
+                "JTC_TEXT": "Have you updated your KYC? Do it now to get 100 reward points"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE": "JTC_BUTTON",
+              "JTC_VIEW_DATA": {
+                "JTC_VIEW_PROPS": {
+                  "setMargin": true,
+                  "margin": "15f"
+                },
+                "JTC_TEXT": "Update KYC"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "JTC_VIEW_TYPE": "JTC_COLUMN",
+        "JTC_VIEW_DATA": {
+          "JTC_VIEW_PROPS": {
+            "setHeight": true,
+            "height": "200f"
+          },
+          "JTC_ORIENTATION": "0",
+          "JTC_COLUMN_DATA": [
+            {
+              "JTC_VIEW_TYPE": "JTC_TEXT",
+              "JTC_VIEW_DATA": {
+                "JTC_VIEW_PROPS": {
+                  "setMargin": true,
+                  "margin": "15f"
+                },
+                "JTC_ORIENTATION": "0",
+                "JTC_TEXT": "Recently Viewed"
+              }
+            },
+            {
+              "JTC_VIEW_TYPE": "JTC_LIST",
+              "JTC_VIEW_DATA": {
+                "JTC_VIEW_PROPS": {},
+                "JTC_ORIENTATION": "1",
+                "JTC_LIST_DATA": [
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f",
+                        "setMargin": true,
+                        "margin": "20f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/bKRwvwK\/airdopes.webp"
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f",
+                        "setMargin": true,
+                        "margin": "20f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/JKjTYLW\/cabledrop.webp"
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f",
+                        "setMargin": true,
+                        "margin": "20f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/TKPWxMh\/cellphone-holder.webp"
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f",
+                        "setMargin": true,
+                        "margin": "20f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/7SVTd5v\/graphics-card.webp"
+                    }
+                  },
+                  {
+                    "JTC_VIEW_TYPE": "JTC_URL_IMAGE",
+                    "JTC_VIEW_DATA": {
+                      "JTC_VIEW_PROPS": {
+                        "setWidth": true,
+                        "setHeight": true,
+                        "width": "120f",
+                        "height": "150f",
+                        "setMargin": true,
+                        "margin": "20f"
+                      },
+                      "IMAGE_URL": "https:\/\/i.ibb.co\/pjYV1vw\/headphonecase.webp"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
     ]
   }
 }

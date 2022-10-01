@@ -22,14 +22,6 @@ import org.json.JSONObject
 fun TestView(context : Context) {
 
      val full = loadJsonObject("example_full.json",context)
-     val offerSlider = loadJsonObject("example_offer_slider.json",context)
-     val kycPrompt = loadJsonObject("example_kyc_prompt.json",context)
-     val productCategories = loadJsonObject("example_product_categories.json",context)
-     val recentlyViewed = loadJsonObject("example_recent_views.json",context)
-     addToColum(full,offerSlider)
-     addToColum(full,productCategories)
-     addToColum(full,kycPrompt)
-     addToColum(full,recentlyViewed)
      val data = JTCJsonParser(
           full).parse()
       val drawer = data?.let { ViewDrawer(it) }
